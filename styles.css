@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secontainer {
+  display: flex;
+  flex-direction: column;
+    justify-content: center; 
+    height: 100;
+    width: 400px;
+  padding: 50px;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin: 200px;
+  text-align: center;
+}
+.span {
+    color: red;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    font-size: 10px;
+    align-self: flex-start;
+    margin-top: 15px;
+}
